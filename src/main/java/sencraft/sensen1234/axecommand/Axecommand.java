@@ -34,17 +34,4 @@ public class Axecommand extends JavaPlugin implements Listener {
             event.setCancelled(true); // 取消物品交换
         }
     }
-
-    @EventHandler
-    public void onPlayerDropItem(PlayerDropItemEvent event) {
-        Player player = event.getPlayer();
-        ItemStack mainHandItem = player.getInventory().getItemInMainHand();
-
-        // 检查玩家手持物是否为木斧
-        if (mainHandItem != null && mainHandItem.getType() == Material.WOODEN_AXE) {
-            // 玩家按下Q键（丢弃物品）执行//redo命令
-            player.performCommand("redo");
-            event.setCancelled(true); // 取消丢弃物品
-        }
-    }
 }
