@@ -1,0 +1,5 @@
+name: axecommand
+version: '1.1-SNAPSHOT'
+main: sencraft.sensen1234.axecommand.Axecommand
+api-version: '1.20'
+authors: [ sensen1234 ]
