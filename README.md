@@ -24,6 +24,6 @@ This plugin does not require additional permissions beyond those required by Wor
 
 ## Building from Source
 
-1. **Clone the Repository**: 
+ **Clone the Repository**: 
    ```bash
    git clone https://github.com/sensen1234/AxeCommand.git
